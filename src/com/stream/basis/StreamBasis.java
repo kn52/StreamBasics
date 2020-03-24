@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import com.stream.filter.Filter;
+import com.stream.map.Map;
 
 import static java.lang.System.out;
 
@@ -16,5 +17,7 @@ public class StreamBasis {
 		out.println(integer);
 		
 		new Filter().filterMethod(integer);
+		
+		new Map().mapMethod(integer);
 	}
 }
