@@ -7,6 +7,7 @@ import java.util.List;
 import com.stream.collect.Collect;
 import com.stream.filter.Filter;
 import com.stream.map.Map;
+import com.stream.reduce.Reduce;
 
 import static java.lang.System.out;
 
@@ -22,5 +23,7 @@ public class StreamBasis {
 		new Map().mapMethod(integer);
 		
 		new Collect().collectMethod(integer);
+		
+		new Reduce().reduceMethod(integer);
 	}
 }

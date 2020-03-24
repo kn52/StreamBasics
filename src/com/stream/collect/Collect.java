@@ -1,18 +1,15 @@
 package com.stream.collect;
 
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import static java.lang.System.out;
 
 public class Collect {
 
 	List<Integer> list;
 	String s=null;
-	
 	Optional<Integer> k;
 	List<Integer> st;
 	Double d;
