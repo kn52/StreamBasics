@@ -8,9 +8,6 @@ import static java.lang.System.out;
 
 public class Map {
 	List<Integer> list;
-	Optional<Integer> k;
-	Stream<Integer> limit;
-	Integer sum=0;
 	
 	public void mapMethod(List<Integer> integer) {
 		out.println("===Map Method===");
