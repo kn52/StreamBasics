@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+import com.stream.collect.Collect;
 import com.stream.filter.Filter;
 import com.stream.map.Map;
 
@@ -19,5 +20,7 @@ public class StreamBasis {
 		new Filter().filterMethod(integer);
 		
 		new Map().mapMethod(integer);
+		
+		new Collect().collectMethod(integer);
 	}
 }
